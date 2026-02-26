@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Horizon | My Homepage</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0a214a, #001f3f);
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ccc;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    nav a:hover, nav a.active {
+      color: #00bfff;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+    }
+
+    .hero-text h1 {
+      font-size: 72px;
+      margin: 0;
+    }
+
+    .hero-text p {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #b0c4de;
+    }
+
+    .hero-text .cta {
+      background: #0078ff;
+      padding: 12px 25px;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .hero-text .cta:hover {
+      background: #005fcc;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      width: 220px;
+      height: 220px;
+      border: 5px solid #0078ff;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#personal">Personal</a>
+    <a href="#collection">Collection</a>
+    <a href="#family">Family</a>
+    <a href="#education">Education</a>
+  </nav>
+
+  <!-- Hero / Main -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Horizon</h1>
+      <p>Welcome to my world — my story begins here.</p>
+      <a href="#about" class="cta">Explore Chapters →</a>
+    </div>
+
+    <!-- Replace "profile.jpg" with your own image file -->
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img" />
+  </section>
+
+</body>
+</html>
